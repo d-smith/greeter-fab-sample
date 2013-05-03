@@ -9,11 +9,11 @@
         <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>greeter-service</artifactId>
+    <artifactId>greeter-formatter</artifactId>
     <packaging>jar</packaging>
 
-    <name>Greeter Service</name>
-    <description>Greeter Service project</description>
+    <name>Greeter Formatter</name>
+	<description>Greeter formatter project</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,29 +25,11 @@
 
     <dependencies>
 
+       
 
-        <dependency>
-            <groupId>fuse-sample</groupId>
-            <artifactId>greeter-iface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>fuse-sample</groupId>
-            <artifactId>greeter-formatter</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.4</version>
-            <scope>provided</scope>
-        </dependency>
 
     </dependencies>
 
+    
 
 </project>

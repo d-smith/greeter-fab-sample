@@ -9,7 +9,7 @@
     <reference id="greeter-impl"
                interface="greeter.Greeter"/>
 
-    <bean id="greeter-ws" class="greeter.ws.GreeterServiceImpl">
+    <bean id="greeter-ws" class="greetersvc.GreeterServiceImpl">
         <property name="greeter" ref="greeter-impl"/>
     </bean>
 

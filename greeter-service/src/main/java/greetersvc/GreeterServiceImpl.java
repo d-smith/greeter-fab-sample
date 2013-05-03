@@ -6,14 +6,16 @@
  *    material for any reason inconsistent with express purpose for which it
  *    has been disclosed is strictly forbidden.
  */
-package greeter.ws;
+package greetersvc;
 
+import formatter.Formatter;
 import greeter.Greeter;
+import greetersvc.GreeterService;
 
 import javax.jws.WebService;
 
 @WebService(targetNamespace = "http://sample/",
-        endpointInterface = "greeter.ws.GreeterService",
+        endpointInterface = "greetersvc.GreeterService",
         portName = "GreeterServicePort",
        serviceName= "GreeterSvc")
 public class GreeterServiceImpl implements GreeterService {
@@ -26,7 +28,7 @@ public class GreeterServiceImpl implements GreeterService {
 
     @Override
     public String hello() {
-        return greeter.greeting();
+        return Formatter.formatGreeting(greeter.greeting());
     }
 
 

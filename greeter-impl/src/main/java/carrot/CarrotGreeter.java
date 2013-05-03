@@ -1,4 +1,4 @@
-package greeter.impl;
+package carrot;
 
 import greeter.Greeter;
 

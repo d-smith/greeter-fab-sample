@@ -6,7 +6,7 @@
  *    material for any reason inconsistent with express purpose for which it
  *    has been disclosed is strictly forbidden.
  */
-package greeter.ws;
+package greetersvc;
 
 import javax.jws.WebService;
 

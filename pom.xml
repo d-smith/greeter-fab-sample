@@ -15,6 +15,7 @@
 	<modules>
         <module>greeter-iface</module>
         <module>greeter-impl</module>
+        <module>greeter-formatter</module>
 		<module>greeter-service</module>
 	</modules>
 </project>
